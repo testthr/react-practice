@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    height: 60px;
+    align-items: center;
+    padding: 0 40px;
+    
+}
