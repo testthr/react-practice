@@ -17,6 +17,9 @@ li{
     display: flex;
     justify-content: center;
 }
+.button :disabled{
+    cursor: not-allowed;
+}
 .diffrences-text{
     text-align: center;
     margin: 2em 0;
@@ -24,4 +27,12 @@ li{
 
 .centered{
     text-align: center;
+}
+
+.control{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
 }

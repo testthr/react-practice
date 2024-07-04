@@ -4,7 +4,7 @@ export default function TeachingSection(){
   
     return(
         <section>
-            <h3>React принимает props в виде объектов</h3>
+            <h3 style={{textAlign:'center'}}>React принимает props в виде объектов</h3>
             <ul>
                 {/* <WayToTeach title={ways[0].title} description={ways[0].description}/>
                 <WayToTeach {...ways[1]}/>
